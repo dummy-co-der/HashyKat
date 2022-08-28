@@ -40,6 +40,7 @@ try:
 		
 			for password in wordlist:
 			# x is a variable storing the encrypting key of password
+				password = password.replace("\n","")
 				x = hashlib.md5(str(password).encode('utf-8')).hexdigest()
 				if hassh == x:
 				
@@ -62,6 +63,7 @@ try:
 		
 			for password in wordlist:
 			# x is a variable storing the encrypting key of password
+				password = password.replace("\n","")
 				x = hashlib.sha1(str(password).encode('utf-8')).hexdigest()
 				if hassh == x:
 				
@@ -84,6 +86,7 @@ try:
 		
 			for password in wordlist:
 			# x is a variable storing the encrypting key of password
+				password = password.replace("\n","")
 				x = hashlib.sha224(str(password).encode('utf-8')).hexdigest()
 				if hassh == x:
 				
@@ -106,6 +109,7 @@ try:
 		
 			for password in wordlist:
 			# x is a variable storing the encrypting key of password
+				password = password.replace("\n","")
 				x = hashlib.sha256(str(password).encode('utf-8')).hexdigest()
 				if hassh == x:
 				
@@ -128,6 +132,7 @@ try:
 		
 			for password in wordlist:
 			# x is a variable storing the encrypting key of password
+				password = password.replace("\n","")
 				x = hashlib.sha384(str(password).encode('utf-8')).hexdigest()
 				if hassh == x:
 				
@@ -150,6 +155,7 @@ try:
 		
 			for password in wordlist:
 			# x is a variable storing the encrypting key of password
+				password = password.replace("\n","")
 				x = hashlib.sha512(str(password).encode('utf-8')).hexdigest()
 				if hassh == x:
 				
@@ -172,6 +178,7 @@ try:
 		
 			for password in wordlist:
 			# x is a variable storing the encrypting key of password
+				password = password.replace("\n","")
 				x = hashlib.sha3_224(str(password).encode('utf-8')).hexdigest()
 				if hassh == x:
 				
@@ -194,6 +201,7 @@ try:
 		
 			for password in wordlist:
 			# x is a variable storing the encrypting key of password
+				password = password.replace("\n","")
 				x = hashlib.sha3_256(str(password).encode('utf-8')).hexdigest()
 				if hassh == x:
 				
@@ -216,6 +224,7 @@ try:
 		
 			for password in wordlist:
 			# x is a variable storing the encrypting key of password
+				password = password.replace("\n","")
 				x = hashlib.sha3_384(str(password).encode('utf-8')).hexdigest()
 				if hassh == x:
 				
@@ -238,6 +247,7 @@ try:
 		
 			for password in wordlist:
 			# x is a variable storing the encrypting key of password
+				password = password.replace("\n","")
 				x = hashlib.sha3_512(str(password).encode('utf-8')).hexdigest()
 				if hassh == x:
 				

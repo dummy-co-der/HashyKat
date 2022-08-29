@@ -4,7 +4,7 @@
 ![System](https://img.shields.io/badge/System-Linux-red)
 ![Author](https://img.shields.io/badge/Author-Anuj-yellow)
 
-![](HashyKat.png)
+![](hashy.Kat.png)
 
 ## Features
 - [x] Fast

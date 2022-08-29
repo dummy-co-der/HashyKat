@@ -10,7 +10,7 @@ from termcolor import colored
 try:
 
 	def banner():
-		print(""" 
+		print(colored(""" 
 		        /\             /\\
                        |` \_,--="=--,_/ `|
                        \ ."  :'. .':  ". /
@@ -28,7 +28,7 @@ try:
 (          |_| |_|\__,_|___/_| |_|\__, |_|\_\__,_|\__|          )
  )                                |___/                        (
  (                                       ~ By Anuj Maheshwari  )    
-'---------------------------------------------------------------' """)
+'---------------------------------------------------------------' """, 'green', attrs = ['bold']))
 		
 	def for_md5():
 		wordlis=input(" Enter the path of wordlist: ")

@@ -1,10 +1,17 @@
 <h1 align="center"> HashyKat </h1>
 
-![Language](https://img.shields.io/badge/Language-Python-pink.svg)
-![System](https://img.shields.io/badge/System-Linux-red)
-![Author](https://img.shields.io/badge/Author-Anuj-yellow)
+<div align="center">
+  
+  ![Language](https://img.shields.io/badge/Language-Python-white.svg)
+  ![System](https://img.shields.io/badge/System-Ubuntu%20&%20Linux-blueviolet)
+  ![Star](https://img.shields.io/static/v1?label=%E2%AD%90&message=If%20Useful&style=style=flat&color=BC4E99")
+  ![Author](https://img.shields.io/badge/Author-Anuj-yellow)
+  
+</div>
 
 ![](hashy.Kat.png)
+
+
 
 ## Hash & Hashing
 A hash is a mathematical operation that transforms an input of any length into an encrypted output of a specific length. Hashing is a cryptographic process that can be used to validate the authenticity and integrity of various types of input. It is extensively used in authentication systems to prevent keeping plaintext passwords in databases, but it is also used to authenticate files, documents, and other sorts of data. <br>
